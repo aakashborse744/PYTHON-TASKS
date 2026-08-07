@@ -1,0 +1,28 @@
+
+<1>how python works internally? 
+
+-->Python code is first compiled into bytecode — an intermediate, platform-independent set of instructions, cached as .pyc files. The Python Virtual Machine then interprets this bytecode line by line to execute it — that's why Python is called an interpreted language, even though a compilation step happens first. In CPython, the standard implementation, this PVM is written in C and talks to the OS/CPU to actually run things. Memory is managed automatically via reference counting plus a cyclic garbage collector, and the GIL ensures only one thread runs Python bytecode at a time.
+
+<2>why python called platform independent? 
+
+-->Python is called platform-independent because the same source code runs on Windows, Linux, or macOS without modification — you don't need to rewrite or recompile it for each OS. This works because Python code is first compiled into bytecode, a platform-independent intermediate format, and then the Python Virtual Machine (PVM) — which is available for each platform — interprets and executes that bytecode. So it's the PVM that handles OS-specific differences, not your code.
+
+
+<3>introduce yourself
+
+-->Good morning/afternoon. My name is Borse Akash Vijay. I have completed my B.Sc. in Computer Science in 2026 from KBCNMU, Jalgaon. I am currently based in Pune, and I'm looking to start my career as a Python Full Stack Developer.
+
+As a fresher, I am looking for an opportunity where I can apply my knowledge, gain practical experience, and contribute to the growth of the organization while developing my professional skills..
+
+I belong to a nuclear family, and I've been raised with strong values of discipline and hard work.
+
+On the technical side, I have hands-on knowledge of Python, HTML, CSS, and JavaScript, which form a strong foundation for both back-end and front-end development. I'm continuously working on strengthening these skills to grow into a full-stack developer role.
+
+I'm a quick learner, eager to apply my knowledge in a real-world environment, and I'm looking forward to contributing to a team where I can grow both technically and professionally.
+
+Thank you.
+
+
+
+ 
+
